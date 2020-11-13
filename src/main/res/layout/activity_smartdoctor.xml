@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/steth"
+    tools:context=".smartdoctor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi"
+
+        android:textSize="12pt"
+        android:gravity="center"
+        android:layout_marginBottom="10pt"
+        android:textColor="@color/design_default_color_error"
+        android:layout_marginTop="12pt"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/follow"
+        android:textSize="7pt"
+        android:textStyle="italic"
+        android:layout_marginBottom="5pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="► Stay in bed and rest."
+        android:textColor="@color/blue_violet"
+        android:layout_marginLeft="9pt"
+        android:textSize="9pt"
+        android:layout_marginBottom="5pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="► Keep hydrated."
+        android:textColor="@color/blue_violet"
+        android:layout_marginLeft="9pt"
+        android:textSize="9pt"
+        android:layout_marginBottom="5pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="► Take over-the-counter medications like acetaminophen and ibuprofen to reduce fever."
+        android:textColor="@color/blue_violet"
+        android:layout_marginLeft="9pt"
+        android:textSize="9pt"
+        android:layout_marginBottom="5pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="► Stay cool."
+        android:textColor="@color/blue_violet"
+        android:layout_marginLeft="9pt"
+        android:textSize="9pt"
+        android:layout_marginBottom="5pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="► Take tepid baths or using cold compresses to make you more comfortable."
+        android:textColor="@color/blue_violet"
+        android:layout_marginLeft="9pt"
+        android:textSize="9pt"
+        android:layout_marginBottom="5pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="► if you have any serious issue then consult with specialist doctor"
+        android:textColor="@color/blue_violet"
+        android:layout_marginLeft="9pt"
+        android:textSize="9pt"
+        android:layout_marginBottom="5pt"
+        />
+
+
+
+
+</LinearLayout>

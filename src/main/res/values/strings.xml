@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ThermoCU</string>
+    <string name="follow">According to your body temperature, here are some tips for you which you need to follow: </string>
+    <string name="text_with_bullet">Text with a \u2022</string>
+
+
+    <string name="hredoy">Hredoy</string>
+    <string name="ahad">Ahad</string>
+    <string name="shovon">Shovon</string>
+    <string name="mahedi">Mahedi</string>
+    <string name="digu">Digu</string>
+
+
+    <string-array name="hredoy">
+        <item>Name: Hredoy Biswas</item>
+        <item>Age: 23 years</item>
+        <item>Temperature: 39.0 C</item>
+        <item>Specifications: The highest temperature within two days</item>
+    </string-array>
+    <string-array name="ahad">
+        <item>Name: Sahinur Alam</item>
+        <item>Age: 21 years</item>
+        <item>Temperature: 38.0 C</item>
+        <item>Specifications: Better than previous</item>
+    </string-array>
+    <string-array name="shovon">
+        <item>Name: Shovon Karmakar</item>
+        <item>Age: 22 years</item>
+        <item>Temperature: 39.5 C</item>
+        <item>Specifications: I feel okay</item>
+    </string-array>
+    <string-array name="mahedi">
+        <item>Name: Mahedi Al-Arafat</item>
+        <item>Age: 24 years</item>
+        <item>Temperature: 39.0 C</item>
+        <item>Specifications: I feel fever. The temperature when i go out.</item>
+    </string-array>
+    <string-array name="digu">
+        <item>Name: Swapnil Diganta</item>
+        <item>Age: 23 years</item>
+        <item>Temperature: 37.0 C</item>
+        <item>Specifications: At Night i feel that.</item>
+    </string-array>
+
+</resources>

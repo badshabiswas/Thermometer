@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prof"
+    tools:context=".profile"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name "
+        android:textStyle="bold"
+        android:textSize="12pt"
+        android:gravity="center"
+        android:paddingBottom="2pt"
+        />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="18pt"
+        android:hint="Enter your name here"
+        android:textColorHint="@color/blue_violet"
+        android:background="@color/lavender_blush"
+        android:textStyle="normal"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:paddingTop="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age "
+        android:textStyle="bold"
+        android:textSize="12pt"
+        android:gravity="center"
+        android:paddingBottom="2pt"
+        />
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="18pt"
+        android:hint="Enter your Age here"
+        android:textColorHint="@color/blue_violet"
+        android:background="@color/lavender_blush"
+        android:textStyle="normal"
+        android:gravity="center"/>
+
+    <TextView
+        android:paddingTop="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature"
+        android:textStyle="bold"
+        android:textSize="12pt"
+        android:gravity="center"
+        android:paddingBottom="2pt"
+        />
+    <EditText
+        android:id="@+id/temperature"
+        android:layout_width="match_parent"
+        android:layout_height="18pt"
+        android:hint="Enter your body temperature here"
+        android:textColorHint="@color/blue_violet"
+        android:background="@color/lavender_blush"
+        android:textStyle="normal"
+        android:gravity="center"/>
+    <TextView
+        android:paddingTop="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note"
+        android:textStyle="bold"
+        android:textSize="12pt"
+        android:gravity="center"
+        android:paddingBottom="2pt"
+        />
+    <EditText android:layout_width="match_parent"
+        android:layout_height="18pt"
+        android:hint="Enter your specifications or tips"
+        android:textColorHint="@color/blue_violet"
+        android:background="@color/lavender_blush"
+        android:textStyle="normal"
+
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/submitprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="13pt"
+        android:onClick="buttonPress"
+        android:layout_marginTop="30pt"
+        android:layout_gravity="center"
+/>
+
+
+</LinearLayout>
